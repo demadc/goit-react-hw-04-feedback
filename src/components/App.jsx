@@ -11,7 +11,6 @@ export function App() {
   const [bad, setBad] = useState(0);
 
   const handleAddFeedback = (e) => {
-    //console.log(e); // good
     switch (e) {
       case "good":
         setGood((prevState) => prevState + 1);
